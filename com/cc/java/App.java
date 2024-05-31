@@ -1,5 +1,8 @@
 package com.cc.java;
 
+import com.cc.java.bees.*;
+import com.cc.java.birds.Bird;
+
 public class App {
     
     public static void main(String[] args) {
@@ -13,11 +16,6 @@ public class App {
         pollObj(worker);
         pollObj(drone);
         pollObj(bird);
-
-        //-- Das geht jetzt nicht mehr ! -- // 
-        // HoneyBee bee = new HoneyBee(); // abstrakte Superklasse!
-        // pollObj(bee);
-
         
     }
 
